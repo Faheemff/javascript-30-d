@@ -1,71 +1,3 @@
-// Array in Javascript
-
-let arr = ['apple', 'banana', 'cherry'];
-console.log(arr);
-// Push method in Array
-
-arr.push('data', 'normal');
-
-console.log(arr);
-// Pop method in Array
-arr.pop();
-
-
-console.log(arr);
-
-// Shift method in Array 
-
-let arr1 = ['apple', ' banana', 'orange'];
-let firstFruits = arr1.shift();
-console.log(arr);
-console.log(firstFruits);
-
-
-// Unshift method in Array
-
-let arr2 = ['apple', 'banana', 'orange'];
-arr2.unshift('kiwi', 'mango');
-console.log(arr2);
-
-// Splice method in Array
-
-let arr3 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
-arr3.splice(0, 0, 'grape'); // adding to arr3
-console.log(arr3);
-
-// and removing from arr3 whit the help of splice method
-
-// arr3.splice(0, 6);
-// console.log(arr3);
-
-// Concat method in Array
-
-let arr4 = ['apple', 'banana', 'cherry'];
-let arr5 = ['orange', 'kiwi'];
-let arr6 = ['hello',];
-let newArr = arr4.concat(arr5, arr6);
-console.log(newArr);
-
-// Slice method in Array
-
-
-let arr7 = ['java', 'javascript', 'php', 'css', 'js', 'react-js'];
-let arr8 = arr7.slice(0,3);
-console.log(arr8);
-
-
-// indexof method in Array
-
-let arr9 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
-console.log(arr9.indexOf('banana'));
-
-// foreach method in Array
-
-let arr10 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
-arr10.forEach(()=> {
-    console.log('hello');
-});
-
 // push 
 
 let arr90 = ['apple', 'banana', 'cherry', 'kiwi'];
@@ -131,3 +63,83 @@ console.log(arr99);
 
 let arr100 = ["a", "b", "c", "d", "e"];
 console.log(arr100.indexOf("e"));
+
+
+
+
+// Array in Javascript
+
+let arr = ['apple', 'banana', 'cherry'];
+console.log(arr);
+// Push method in Array
+
+arr.push('data', 'normal');
+
+console.log(arr);
+// Pop method in Array
+arr.pop();
+
+
+console.log(arr);
+
+// Shift method in Array 
+
+let arr1 = ['apple', ' banana', 'orange'];
+let firstFruits = arr1.shift();
+console.log(arr);
+console.log(firstFruits);
+
+
+// Unshift method in Array
+
+let arr2 = ['apple', 'banana', 'orange'];
+arr2.unshift('kiwi', 'mango');
+console.log(arr2);
+
+// Splice method in Array
+
+let arr3 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
+arr3.splice(0, 0, 'grape'); // adding to arr3
+console.log(arr3);
+
+// and removing from arr3 whit the help of splice method
+
+// arr3.splice(0, 6);
+// console.log(arr3);
+
+// Concat method in Array
+
+let arr4 = ['apple', 'banana', 'cherry'];
+let arr5 = ['orange', 'kiwi'];
+let arr6 = ['hello',];
+let newArr = arr4.concat(arr5, arr6);
+console.log(newArr);
+
+// Slice method in Array
+
+
+let arr7 = ['java', 'javascript', 'php', 'css', 'js', 'react-js'];
+let arr8 = arr7.slice(0,3);
+console.log(arr8);
+
+
+// indexof method in Array
+
+let arr9 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
+console.log(arr9.indexOf('banana'));
+
+// foreach method in Array
+
+let arr10 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
+arr10.forEach(()=> {
+    console.log("1");
+});
+
+
+// map method in Array
+
+let arr11 = [1, 2, 3, 4, 5];
+let arr12 = arr11.map((value)=> {
+    return value * 2;
+});
+console.log(arr12);
