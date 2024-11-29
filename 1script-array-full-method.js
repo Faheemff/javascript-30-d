@@ -151,3 +151,19 @@ let arr14 = arr13.map((nam)=> {
 });
 
 console.log(arr14);
+
+// filter method in Array
+
+let arr15 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let arr16 = arr15.filter((num)=> {
+    return num % 2 === 0;
+});
+console.log(arr16);
+
+
+let arr17 =  ['a', 'b', 'c', 'd', 'e', 'f', 'g',];
+let arr18 =  arr17.filter((index)=> {
+    return index.startsWith("a");
+});
+
+console.log(arr18);
