@@ -35,5 +35,33 @@ console.log(arr3);
 
 // and removing from arr3 whit the help of splice method
 
-arr3.splice(0, 6);
-console.log(arr3);
+// arr3.splice(0, 6);
+// console.log(arr3);
+
+// Concat method in Array
+
+let arr4 = ['apple', 'banana', 'cherry'];
+let arr5 = ['orange', 'kiwi'];
+let arr6 = ['hello',];
+let newArr = arr4.concat(arr5, arr6);
+console.log(newArr);
+
+// Slice method in Array
+
+
+let arr7 = ['java', 'javascript', 'php', 'css', 'js', 'react-js'];
+let arr8 = arr7.slice(0,3);
+console.log(arr8);
+
+
+// indexof method in Array
+
+let arr9 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
+console.log(arr9.indexOf('banana'));
+
+// foreach method in Array
+
+let arr10 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
+arr10.forEach(()=> {
+    console.log('hello');
+});
