@@ -65,3 +65,37 @@ let arr10 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
 arr10.forEach(()=> {
     console.log('hello');
 });
+
+// push 
+
+let arr90 = ['apple', 'banana', 'cherry', 'kiwi'];
+arr90.push('hello', 'hello');
+console.log(arr90);
+
+// push array ka last mai ek elements ko add karen ka leya use hota hai  
+
+// pop
+
+let arr91 = ['apple', 'banana', 'cherry', 'orange', 'kiwi'];
+arr91.pop();
+console.log(arr91);
+
+// pop array ka last mai ek element ko delete karen ka leya use hta hai
+
+
+// shift
+
+let arr92 = ["a", "b", "c", "d", "e", "f", "e"];
+let shift =  arr92.shift();
+console.log(arr92);
+console.log(shift);
+// unshift
+
+let arr93 = ["a", "b", "c", "d",];
+arr93.unshift("f",'a',);
+console.log(arr93);
+
+// splice
+// concat
+// slice
+// indexof
