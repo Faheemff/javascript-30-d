@@ -116,5 +116,18 @@ let arr95 = ["a", "b", "c"];
 let arr96 = ["d", "e", "f"];
 let arr97 = arr95.concat(arr96);
 console.log(arr97);
+
+// concat method ek sa zayada array ko cambain karen ka leya use hota hai  
+
 // slice
+
+let arr98 = ["a", "b", "c", "d", "e"];
+let arr99 = arr98.slice(1, 3);
+console.log(arr99);
+
+// slice method array mai elements ko strack or protion krta hai or hm ko new array return kr ta hai 
+
 // indexof
+
+let arr100 = ["a", "b", "c", "d", "e"];
+console.log(arr100.indexOf("e"));
