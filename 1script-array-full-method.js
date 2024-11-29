@@ -89,13 +89,32 @@ let arr92 = ["a", "b", "c", "d", "e", "f", "e"];
 let shift =  arr92.shift();
 console.log(arr92);
 console.log(shift);
+
+
+// shift method array ka start sa elements ko delete karen ka leya use hota or jo element delete krta hai is ko return krta hai
+
 // unshift
 
 let arr93 = ["a", "b", "c", "d",];
 arr93.unshift("f",'a',);
 console.log(arr93);
 
+// unshift method array ka start sa elements ko add karen ka leya use hota
+
 // splice
+
+let arr94 = ["a", "b", "c", "d", "e"];
+arr94.splice(1, 2);
+console.log(arr94);
+
+// splice method array ka specific index se elements ko delete karen ka leya use hota ya add karen ka leya use hota hai
+
+
 // concat
+
+let arr95 = ["a", "b", "c"];
+let arr96 = ["d", "e", "f"];
+let arr97 = arr95.concat(arr96);
+console.log(arr97);
 // slice
 // indexof
