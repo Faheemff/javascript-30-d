@@ -143,3 +143,11 @@ let arr12 = arr11.map((value)=> {
     return value * 2;
 });
 console.log(arr12);
+
+
+let arr13 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18];
+let arr14 = arr13.map((nam)=> {
+    return nam * 2;
+});
+
+console.log(arr14);
