@@ -1,3 +1,3 @@
 let cars = ["A", "B", "C", "D"];
-cars.toString();
-console.log(cars);
+let car = cars.toString();
+console.log(car);
