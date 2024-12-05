@@ -90,4 +90,14 @@ const user = {
       notifications: true,
     },
   };
+
+  const { username, profile: { fullName, location }, preferences: { theme }} = user;
+
+  console.log(username);
+  console.log(fullName);
+  console.log(location);
+  console.log(theme);
+  
+  
+  
   
