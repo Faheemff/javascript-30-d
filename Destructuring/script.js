@@ -42,3 +42,52 @@ let {name:name, age:age } = obj;
 console.log(name);
 // console.log(age);
 
+
+
+// ager array ya object ka ander kio value na ho to hamm in ka ander  Default Values set kr sehkta hai 
+
+let numbers = [10];
+
+// Destructuring with default value:
+let [num1, num2 = 20] = numbers;
+
+console.log(num1); // 10
+console.log(num2); // 20
+
+
+let car = { model: 'Toyota' };
+
+// Default value:
+let { model, color = 'Black' } = car;
+
+console.log(model); // 'Toyota'
+console.log(color); // 'Black'
+
+
+
+// first question 
+
+// Tumhare paas ek object hai jo kisi user ke details ko represent karta hai:
+
+
+// Tumhe is object ko destructure karke nikalna hai:
+
+// username
+// fullName
+// location
+// theme
+
+const user = {
+    username: "Ali123",
+    password: "securePass",
+    profile: {
+      fullName: "Ali Khan",
+      age: 30,
+      location: "Lahore",
+    },
+    preferences: {
+      theme: "dark",
+      notifications: true,
+    },
+  };
+  
