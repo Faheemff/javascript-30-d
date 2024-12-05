@@ -24,7 +24,7 @@ console.log(third1);
 
 // destructuring with object
 
-let obj = {name: 'John', age: 30};
+let obj = { name: 'John', age: 30 };
 
 
 // bina destructuring
@@ -38,7 +38,7 @@ console.log(secondAge);
 
 // now destructuring
 
-let {name:name, age:age } = obj;
+let { name: name, age: age } = obj;
 console.log(name);
 // console.log(age);
 
@@ -81,23 +81,40 @@ const user = {
     username: "Ali123",
     password: "securePass",
     profile: {
-      fullName: "Ali Khan",
-      age: 30,
-      location: "Lahore",
+        fullName: "Ali Khan",
+        age: 30,
+        location: "Lahore",
     },
     preferences: {
-      theme: "dark",
-      notifications: true,
+        theme: "dark",
+        notifications: true,
     },
-  };
+};
 
-  const { username, profile: { fullName, location }, preferences: { theme }} = user;
+const { username, profile: { fullName, location }, preferences: { theme } } = user;
 
-  console.log(username);
-  console.log(fullName);
-  console.log(location);
-  console.log(theme);
-  
-  
-  
-  
+console.log(username);
+console.log(fullName);
+console.log(location);
+console.log(theme);
+
+
+// Question:
+// Tumhare paas ek array hai jo products ke details store karta hai:
+
+
+const products = [
+    { id: 1, name: "Laptop", price: 80000 },
+    { id: 2, name: "Mobile", price: 50000 },
+    { id: 3, name: "Tablet", price: 30000 },
+];
+
+// Tumhe array destructuring ka use karke:
+
+// Pehla product ka name aur price nikalna hai.
+// Dusra product ka name nikalna hai.
+
+
+let [  ] = products
+
+
