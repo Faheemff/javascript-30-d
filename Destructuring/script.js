@@ -114,7 +114,12 @@ const products = [
 // Pehla product ka name aur price nikalna hai.
 // Dusra product ka name nikalna hai.
 
+const [firstProduct, secondProduct] = products;
 
-let [  ] = products
+console.log(firstProduct.name);
+console.log(firstProduct.price);
+console.log(secondProduct.name);
+
+
 
 
