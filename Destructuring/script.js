@@ -22,3 +22,23 @@ console.log(second1);
 console.log(third1);
 
 
+// destructuring with object
+
+let obj = {name: 'John', age: 30};
+
+
+// bina destructuring
+
+let firstName = obj.name;
+let secondAge = obj.age;
+
+console.log(firstName);
+console.log(secondAge);
+
+
+// now destructuring
+
+let {name:name, age:age } = obj;
+console.log(name);
+// console.log(age);
+
