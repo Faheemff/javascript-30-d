@@ -62,3 +62,9 @@ console.log(second);
 
 
 // spread and rest
+
+
+const Arr = ['John', 'Jane', 'Doe', 'Smith'];
+
+const copyName = [...Arr];
+console.log(copyName);
