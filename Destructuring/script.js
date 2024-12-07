@@ -120,6 +120,52 @@ console.log(firstProduct.name);
 console.log(firstProduct.price);
 console.log(secondProduct.name);
 
+// Question:
 
 
+const students = [
+    {
+      id: 1,
+      name: "Zain",
+      courses: {
+        math: { grade: "A", credits: 3 },
+        physics: { grade: "B", credits: 4 },
+        chemistry: { grade: "A", credits: 2 },
+      },
+      address: {
+        city: "Karachi",
+        country: "Pakistan",
+      },
+    },
+    {
+      id: 2,
+      name: "Ayesha",
+      courses: {
+        math: { grade: "B", credits: 3 },
+        physics: { grade: "A", credits: 4 },
+        chemistry: { grade: "C", credits: 2 },
+      },
+      address: {
+        city: "Lahore",
+        country: "Pakistan",
+      },
+    },
+    {
+      id: 3,
+      name: "Ahmed",
+      courses: {
+        math: { grade: "A", credits: 3 },
+        physics: { grade: "A", credits: 4 },
+        chemistry: { grade: "A", credits: 2 },
+      },
+      address: {
+        city: "Islamabad",
+        country: "Pakistan",
+      },
+    },
+  ];
+  
+if(grade === 'A'){
+    const [name, ] = students;
+}
 
