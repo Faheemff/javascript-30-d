@@ -123,3 +123,87 @@ for(let fof of forOf) {
     console.log(fof);
     
 }
+
+
+
+// questions part for loop questions
+
+// 01 = Write a for loop to print numbers from 1 to 10.
+
+
+for(let i = 1; i < 11; i++){
+    console.log(i);
+};
+
+
+// 02 = Write a for loop that calculates the sum of the first 10 natural numbers (1 + 2 + 3 + ... + 10).
+
+
+let sum = 0;
+for(let i = 1; i < 11; i++){
+    sum += i;
+    console.log(sum);
+};
+
+
+// 03 = Write a for loop to print the multiplication table of 5 (5 * 1, 5 * 2, ... 5 * 10).
+
+let mult = 5;
+for(let i = 1; i < 10; i++){
+    console.log(5 * i);
+    
+};
+
+
+// medium tasks
+
+
+// 01 = Write a for loop to find the factorial of a given number (n!). For example, for n = 4, the factorial is 4 * 3 * 2 * 1 = 24.
+
+let n = 4;
+let factorial = 1;
+
+for(let i = 1; i <= n; i++){
+    factorial *= i;
+};
+
+console.log(factorial);
+
+
+
+// Given array
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// Initialize counters for odd and even numbers
+let evenCount = 0;
+let oddCount = 0;
+
+// Loop through each number in the array
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {  // If the number is divisible by 2, it's even
+        evenCount++;
+    } else {  // If the number is not divisible by 2, it's odd
+        oddCount++;
+    }
+}
+
+// Print the results
+console.log("Even numbers count:", evenCount);
+console.log("Odd numbers count:", oddCount);
+
+
+
+// for(let i = 11; i >= 1; i--){
+//     console.log(i);
+// };
+
+
+let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let numChecker = 9 
+
+for(let i = 1; i < numArray; i++){
+    if(numChecker == numArray[i]){
+        console.log(numChecker);
+    }
+};
